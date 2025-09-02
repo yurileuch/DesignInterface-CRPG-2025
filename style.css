@@ -3,14 +3,14 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to right, #e3f2fd, #bbdefb);
-    color: #333;
+    background: linear-gradient(to right, #e8f5e9, #c8e6c9); /* tons de verde claro */
+    color: #2e7d32; /* verde escuro para texto */
     text-align: center;
 }
 
-/* Cabeçalho mais moderno */
+/* Cabeçalho com tema florestal */
 header {
-    background: linear-gradient(135deg, #0d47a1, #1976d2);
+    background: linear-gradient(135deg, #1b5e20, #388e3c); /* verde profundo */
     color: white;
     padding: 20px 0;
     text-align: center;
@@ -29,18 +29,19 @@ header nav {
 
 header nav a {
     display: inline-block;
-    color: #ffeb3b;
+    color: #ffffff; /* branco */
     margin: 0 15px;
     text-decoration: none;
     font-weight: bold;
     padding: 6px 12px;
     border-radius: 6px;
     transition: background-color 0.3s, color 0.3s;
+    background-color: #66bb6a; /* verde médio */
 }
 
 header nav a:hover {
-    background-color: #ffeb3b;
-    color: #0d47a1;
+    background-color: #a5d6a7; /* verde claro */
+    color: #1b5e20;
 }
 
 /* Conteúdo principal */
@@ -49,16 +50,16 @@ main {
 }
 
 main h1 {
-    color: #0d47a1;
+    color: #1b5e20;
 }
 
 /* Rodapé */
 footer {
-    background-color: #eeeeee;
+    background-color: #f1f8e9; /* verde bem claro quase branco */
     padding: 15px;
     margin-top: 30px;
     font-size: 0.9em;
-    color: #555;
+    color: #4e944f;
     box-shadow: 0 -2px 6px rgba(0,0,0,0.2);
 }
 
