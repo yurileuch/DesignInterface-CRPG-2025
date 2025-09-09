@@ -5,11 +5,16 @@
   flex-direction: column;
   gap: 15px;
   text-align: left;
+
+  /* ADICIONADO: */
+  background-color: #000000;  /* fundo preto */
+  padding: 20px;              /* espaço interno */
+  border-radius: 8px;         /* cantos arredondados */
 }
 
 .contato-form label {
   font-weight: bold;
-  color: #0da137;
+  color: #0da137;             /* mantém o verde */
 }
 
 .contato-form input,
@@ -20,6 +25,10 @@
   font-size: 1em;
   width: 100%;
   box-sizing: border-box;
+
+  /* opcionais para melhor contraste */
+  background-color: #ffffff;
+  color: #000000;
 }
 
 .contato-form button {
@@ -37,6 +46,7 @@
   background: #0da137;
 }
 
+/* galeria de árvores permanece inalterada */
 .arvores {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
