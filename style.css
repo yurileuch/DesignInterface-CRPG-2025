@@ -27,13 +27,13 @@
   box-sizing: border-box;
 
   /* opcionais para melhor contraste */
-  background-color: #ffffff;
+  background-color: #57b367;
   color: #000000;
 }
 
 .contato-form button {
   background: #0da137;
-  color: #ffffff;
+  color: #57b367;
   padding: 10px;
   border: none;
   border-radius: 6px;
