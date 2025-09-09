@@ -1,124 +1,38 @@
-/* Estilo geral */
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
-    padding: 0;
-    background: linear-gradient(to right, #e8f5e9, #c8e6c9); /* tons de verde claro */
-    color: #2e7d32; /* verde escuro para texto */
-    text-align: center;
-}
-
-/* Cabeçalho com tema florestal */
-header {
-    background: linear-gradient(135deg, #1b5e20, #388e3c); /* verde profundo */
-    color: white;
-    padding: 20px 0;
-    text-align: center;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-}
-
-header h2 {
-    margin: 0;
-    font-size: 2em;
-    letter-spacing: 2px;
-}
-
-header nav {
-    margin-top: 10px;
-}
-
-header nav a {
-    display: inline-block;
-    color: #ffffff; /* branco */
-    margin: 0 15px;
-    text-decoration: none;
-    font-weight: bold;
-    padding: 6px 12px;
-    border-radius: 6px;
-    transition: background-color 0.3s, color 0.3s;
-    background-color: #66bb6a; /* verde médio */
-}
-
-header nav a:hover {
-    background-color: #a5d6a7; /* verde claro */
-    color: #1b5e20;
-}
-
-/* Conteúdo principal */
-main {
-    padding: 20px;
-}
-
-main h1 {
-    color: #1b5e20;
-}
-
-/* Rodapé */
-footer {
-    background-color: #f1f8e9; /* verde bem claro quase branco */
-    padding: 15px;
-    margin-top: 30px;
-    font-size: 0.9em;
-    color: #4e944f;
-    box-shadow: 0 -2px 6px rgba(0,0,0,0.2);
-}
-
-/* Galeria de carros */
-.Árvores {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
-    margin-top: 20px;
-}
-
-.Árvores img {
-    width: 200px;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-    transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.Árvores img:hover {
-    transform: scale(1.05);
-    box-shadow: 0 6px 16px rgba(0,0,0,0.4);
-}
-
 .contato-form {
-    max-width: 400px;
-    margin: 20px auto;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    text-align: left;
+  max-width: 400px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: left;
 }
 
 .contato-form label {
-    font-weight: bold;
-    color: #0d47a1;
+  font-weight: bold;
+  color: #0d47a1;
 }
 
 .contato-form input,
 .contato-form textarea {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-    font-size: 1em;
-    width: 100%;
-    box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1em;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .contato-form button {
-    background: #0d47a1;
-    color: white;
-    padding: 10px;
-    border: none;
-    border-radius: 6px;
-    font-size: 1em;
-    cursor: pointer;
-    transition: background 0.3s;
+  background: #0d47a1;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.3s;
 }
 
 .contato-form button:hover {
-    background: #1976d2;
+  background: #1976d2;
 }
