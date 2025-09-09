@@ -1,0 +1,47 @@
+.contato-form {
+    max-width: 400px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: left;
+    background-color: #FAFAD2; /* fundo amarelo clarinho para combinar */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(192, 32, 64, 0.3); /* sombra suave vermelha */
+}
+.contato-form label {
+    font-weight: bold;
+    color: #C02040; /* vermelho do header */
+}
+.contato-form input,
+.contato-form textarea {
+    padding: 10px;
+    border: 1px solid #C02040; /* borda vermelha */
+    border-radius: 6px;
+    font-size: 1em;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #fff8dc; /* amarelo muito clarinho para o campo */
+    color: #C02040; /* texto vermelho */
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+.contato-form input:focus,
+.contato-form textarea:focus {
+    border-color: #EBC36A; /* amarelo do footer */
+    box-shadow: 0 0 5px #EBC36A;
+    outline: none;
+}
+.contato-form button {
+    background: #C02040; /* vermelho forte */
+    color: #FAFAD2; /* amarelo clarinho */
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.contato-form button:hover {
+    background: #EBC36A; /* amarelo do footer */
+    color: #C02040; /* texto vermelho no hover */
