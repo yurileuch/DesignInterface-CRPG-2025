@@ -6,13 +6,13 @@ body {
 }
 
 header {
-    background-color: #EB1B11;
-    color: white;
+    background-color: #C02040;
+    color: red;
     padding: 20px;
 }
 
 header nav a {
-    color: white;
+    color: yellow;
     margin: 0 10px;
     text-decoration: none;
 }
