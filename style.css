@@ -1,3 +1,12 @@
+/* 1. Definição de variáveis de cor */
+:root {
+  --verde-principal: #388e3c;
+  --verde-claro:    #81c784;
+  --preto:          #000000;
+  --branco:         #ffffff;
+}
+
+/* 2. Formulário de contato */
 .contato-form {
   max-width: 400px;
   margin: 20px auto;
@@ -7,35 +16,58 @@
   text-align: left;
 }
 
+/* Label em verde principal */
 .contato-form label {
   font-weight: bold;
-  color: #0d47a1;
+  color: var(--verde-principal);
 }
 
+/* Inputs e textarea com borda verde e texto preto */
 .contato-form input,
 .contato-form textarea {
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid var(--verde-principal);
   border-radius: 6px;
   font-size: 1em;
   width: 100%;
   box-sizing: border-box;
+  color: var(--preto);
+  background-color: var(--branco);
 }
 
+/* Placeholder em verde claro */
+.contato-form input::placeholder,
+.contato-form textarea::placeholder {
+  color: var(--verde-claro);
+}
+
+/* Foco: borda preta + sombra suave */
+.contato-form input:focus,
+.contato-form textarea:focus {
+  border-color: var(--preto);
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2);
+  outline: none;
+}
+
+/* Botão com fundo verde e texto preto */
 .contato-form button {
-  background: #0d47a1;
-  color: white;
+  background-color: var(--verde-principal);
+  color: var(--preto);
   padding: 10px;
   border: none;
   border-radius: 6px;
   font-size: 1em;
   cursor: pointer;
-  transition: background 0.3s;
+  transition: background-color 0.3s, color 0.3s;
 }
 
+/* Hover do botão: inverte para fundo preto e texto verde */
 .contato-form button:hover {
-  background: #1976d2;
+  background-color: var(--preto);
+  color: var(--verde-principal);
 }
+
+/* 3. Galeria de árvores (sem alterações de cor, mantém o design original) */
 .arvores {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
