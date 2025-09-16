@@ -27,12 +27,12 @@
   box-sizing: border-box;
 
   /* opcionais para melhor contraste */
-  background-color: #57b367;
-  color: #000000;
+  background-color: oklch(100% 0.00011 271.152);
+  color: #ffff;
 }
 
 .contato-form button {
-  background: #0da137;
+  background: #ffffff;
   color: #57b367;
   padding: 10px;
   border: none;
@@ -59,7 +59,7 @@
   height: auto;
   border-radius: 8px;
   object-fit: cover;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(204, 198, 198, 0.1);
   transition: transform 0.3s;
 }
 
