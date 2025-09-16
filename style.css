@@ -1,68 +1,81 @@
-.contato-form {
-  max-width: 400px;
-  margin: 20px auto;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  text-align: left;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
 
-  /* ADICIONADO: */
-  background-color: #000000;  /* fundo preto */
-  padding: 20px;              /* espaço interno */
-  border-radius: 8px;         /* cantos arredondados */
+header {
+    background-color: #085f1e;
+    color: white;
+    padding: 20px;
+}
+
+header nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #f1f1f1;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+.carros {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.carros img {
+    width: 200px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.contato-form {
+    max-width: 400px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: left;
 }
 
 .contato-form label {
-  font-weight: bold;
-  color: #0da137;             /* mantém o verde */
+    font-weight: bold;
+    color: #077237;
 }
 
 .contato-form input,
 .contato-form textarea {
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  font-size: 1em;
-  width: 100%;
-  box-sizing: border-box;
-
-  /* opcionais para melhor contraste */
-  background-color: oklch(100% 0.00011 271.152);
-  color: #ffff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1em;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .contato-form button {
-  background: #ffffff;
-  color: #57b367;
-  padding: 10px;
-  border: none;
-  border-radius: 6px;
-  font-size: 1em;
-  cursor: pointer;
-  transition: background 0.3s;
+    background: #045a4f;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s;
 }
 
 .contato-form button:hover {
-  background: #0da137;
-}
-
-/* galeria de árvores permanece inalterada */
-.arvores {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-  padding: 0 20px;
-}
-
-.arvores img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-  object-fit: cover;
-  box-shadow: 0 4px 8px rgba(204, 198, 198, 0.1);
-  transition: transform 0.3s;
-}
-
-.arvores img:hover {
-  transform: scale(1.05);
+    background: #1976d2;
 }

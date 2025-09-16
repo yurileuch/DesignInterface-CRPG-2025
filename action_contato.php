@@ -15,7 +15,7 @@
         <h2>Locadora IFPR</h2>
         <nav>
             <a href="index.html">Início</a>
-            <a href="arvores.html">arvores</a>
+            <a href="Carros.html">Carros</a>
             <a href="filiais.html">Filiais</a>
             <a href="contato.html">Contato</a>
         </nav>
