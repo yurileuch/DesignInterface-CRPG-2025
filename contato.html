@@ -6,40 +6,84 @@
   <title>Contato</title>
   <link rel="stylesheet" href="style.css" />
   <style>
-    /* Centralizar o conteúdo e dar um fundo suave */
     body {
       background-color: #fff8dc;
-      font-family: Arial, sans-serif;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       display: flex;
       justify-content: center;
-      align-items: flex-start;
+      align-items: center;
       min-height: 100vh;
-      padding: 40px 20px;
       margin: 0;
+      padding: 20px;
     }
     main {
+      background-color: #ffffff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
       width: 100%;
-      max-width: 450px;
+      max-width: 500px;
     }
     h1 {
       text-align: center;
-color: #C02040;
-      margin-bottom: 30px;
+      color: #C02040;
+      margin-bottom: 25px;
+      font-size: 28px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+    label {
+      margin-top: 15px;
+      margin-bottom: 5px;
+      font-weight: bold;
+      color: #333;
+    }
+    input {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 16px;
+    }
+    input:focus {
+      border-color: #C02040;
+      outline: none;
+    }
+    button {
+      margin-top: 25px;
+      padding: 12px;
+      background-color: #C02040;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #a01835;
     }
   </style>
 </head>
 <body>
   <main>
     <h1>Fale Conosco</h1>
-    <form class="contato-form" action="action_contato.php" method="POST"></form>
+    <form class="contato-form" action="action_contato.php" method="POST">
       <label for="nome">Seu nome</label>
       <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required />
+
       <label for="email">Email</label>
       <input type="email" id="email" name="email" placeholder="Digite seu email" required />
+
       <label for="telefone">Número de telefone</label>
       <input type="tel" id="telefone" name="telefone" placeholder="(XX) XXXXX-XXXX" pattern="\(\d{2}\) \d{4,5}-\d{4}" required />
+
+      <label for="idade">Idade</label>
+      <input type="number" id="idade" name="idade" placeholder="Digite sua idade" min="0" max="120" required />
+
       <button type="submit">Enviar</button>
     </form>
   </main>
 </body>
-</html
+</html>
