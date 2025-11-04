@@ -47,7 +47,7 @@ async function carregarConteudo() {
         if (item.Url.match(/\.(jpg|jpeg|png|gif|webp)$/i) || item.Url.includes('unsplash')) {
           const img = document.createElement('img');
           img.src = item.Url;
-          img.alt = item.Título || 'Imagem';
+          img.alt = item.Titulo || 'Imagem';
           bloco.appendChild(img);
         } else {
           const link = document.createElement('a');
