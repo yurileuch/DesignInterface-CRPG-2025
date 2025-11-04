@@ -43,6 +43,11 @@ async function carregarConteudo() {
       descricao.textContent = item.Descricao || '';
       bloco.appendChild(descricao);
 
+        const beneficio = document.createElement('p');
+      descricao.textContent = item.Beneficio || '';
+      bloco.appendChild(beneficio);
+
+
       if (item.Url && item.Url.startsWith('http')) {
         if (item.Url.match(/\.(jpg|jpeg|png|gif|webp)$/i) || item.Url.includes('unsplash')) {
           const img = document.createElement('img');
