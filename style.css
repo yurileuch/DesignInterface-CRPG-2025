@@ -105,41 +105,42 @@ footer {
   border-radius: 50%;
   transition: transform 0.25s;
 }
-/* ---------- TEMA ESCURO ---------- */
+/* ---------- TEMA CLARO (ajustado a pedido) ---------- */
 .tema-escuro {
-  background-color: ##f0f2f5;
-  color: #e9eef5;
+  background-color: #ffffff; /* fundo branco */
+  color: #000000; /* texto preto */
 }
 
 .tema-escuro header {
-  background-color: ##f0f2f5;
+  background-color: #ffffff;
+  color: #000000;
 }
 
 .tema-escuro footer {
-  background-color: ##f0f2f5;
-  color: #e9eef5;
+  background-color: #ffffff;
+  color: #000000;
 }
 
 .tema-escuro .conteudo-scroll {
-  background: ##f0f2f5;
-  border-color: #2a3645;
+  background: #ffffff;
+  border-color: #000000;
 }
 
 .tema-escuro .bloco-item {
-  border-color: #2a3645;
+  border-color: #000000;
+  background-color: #ffffff;
 }
 
 .tema-escuro .bloco-item h2 {
-  color: ##f0f2f5;
+  color: #000000;
 }
 
-/* Toggle no modo escuro */
+/* Toggle */
 .tema-escuro .tema-toggle {
-  background: #374151;
+  background: #dddddd; /* cor clara para harmonizar */
 }
 
 .tema-escuro .tema-toggle .bolinha {
   transform: translateX(24px);
 }
 </script>
-
