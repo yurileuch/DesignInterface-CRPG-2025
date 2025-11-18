@@ -107,21 +107,21 @@ footer {
 }
 /* ---------- TEMA ESCURO ---------- */
 .tema-escuro {
-  background-color: #0f1720;
+  background-color: ##f0f2f5;
   color: #e9eef5;
 }
 
 .tema-escuro header {
-  background-color: #0b1220;
+  background-color: ##f0f2f5;
 }
 
 .tema-escuro footer {
-  background-color: #0b1220;
+  background-color: ##f0f2f5;
   color: #e9eef5;
 }
 
 .tema-escuro .conteudo-scroll {
-  background: #111821;
+  background: ##f0f2f5;
   border-color: #2a3645;
 }
 
@@ -130,7 +130,7 @@ footer {
 }
 
 .tema-escuro .bloco-item h2 {
-  color: #8db0ff;
+  color: ##f0f2f5;
 }
 
 /* Toggle no modo escuro */
